@@ -14,6 +14,7 @@ Para clonar el proyecto y ademas intalar las dependencias del entorno el cual se
 ```sh
 git clone 
 cd app
+python3 -m venv mi_entorno
 source mi_entorno/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
